@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    display: flex;
+    
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    font-family: 'yeseva one';
+    font-weight: 400px;
+    font-size: 60px;
+    border-left: 5px solid rgb(201,26,26);
+    padding: 10px;
+}
+.first-p{
+    color: blueviolet;
+}
+.second-p{
+    color: blue;
+}
+.name-hgt{
+    color: blue;
+}
+.photo img{
+   width: 550px; 
+}
+.details-btn{
+    padding: 15px 50px;
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+}
+.details-btn:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
