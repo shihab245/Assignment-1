@@ -7,6 +7,8 @@ body{
     
     width: 80%;
     margin: 0 auto;
+    
+    
 }
 h1{
     font-family: 'yeseva one';
@@ -40,7 +42,8 @@ h1{
 }
 .second-section{
     text-align: center;
-    margin-top: 50px;
+    margin: 0 auto;
+    margin-bottom: 100px;
 }
 .sec2-span{
     color: tomato;
@@ -89,4 +92,26 @@ h1{
     background-color: blue;
     color: white;
     cursor: pointer;
+}
+.third-sec{
+    display: flex;
+    margin-bottom: 150px;
+}
+.third-sec{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 80%;
+}
+.header {
+    font-family: 'yeseva one';
+    font-weight: 400px;
+    font-size: 60px;
+    
 }
